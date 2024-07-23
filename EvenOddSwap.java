@@ -1,6 +1,6 @@
 package com.pack1;
 
-public class Demo1 {
+public class EvenOddSwap {
 
 	public static void main(String[] args) {
 		int a = 5;

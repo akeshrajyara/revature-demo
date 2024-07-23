@@ -1,6 +1,6 @@
 package com.pack1;
 
-public class Demo2 {
+public class PrimeOrComposite {
 public static void main(String args[])
 {
 	int n=9;

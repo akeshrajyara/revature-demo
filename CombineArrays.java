@@ -18,7 +18,6 @@ public class CombineArrays {
 		System.arraycopy(arr2, 0, result, a1, a2);
 		System.out.println(Arrays.toString(result));
 		
-		int combine[] = new int [a1+a2];
-		
+				
 	}
 }

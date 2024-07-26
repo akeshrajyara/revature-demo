@@ -10,11 +10,15 @@ public class CombineArrays {
 		int a1 = arr1.length;
 		int a2 = arr2.length;
 		
-		int sum = a1 + a2;
-		int result[] = new int[sum];
+//		int sum = a1 + a2;
+		int result[] = new int[a1+a2];
+		
 		//Using arraycopy predefined method
 		System.arraycopy(arr1, 0, result, 0, a1);
 		System.arraycopy(arr2, 0, result, a1, a2);
 		System.out.println(Arrays.toString(result));
+		
+		int combine[] = new int [a1+a2];
+		
 	}
 }
